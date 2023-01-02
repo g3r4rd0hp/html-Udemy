@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tablas html</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h1>Tablas html</h1>
+
+    <table border="1" summary="Peliculas">
+        <caption>Mis Peliculas</caption>
+        
+        <thead>
+            <tr> <!--Fila-->
+                <th>Titulo</th> <!--"TH" es para crear un encabezado dentro de las columnas-->
+                <th>Genero</th>
+                <th>Año</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>El señor de los anillos</td> <!--Columna-->
+                <td colspan="2">Aventuras</td> <!--"colspan" para ocupar 2 COLUMNAS-->
+            </tr>
+            <tr>
+                <td>Joker</td> 
+                <td rowspan="2">Accion</td> <!--"rowspan" para ocupar 2 FILAS-->
+                <td>2019</td>
+            </tr>
+            <tr>
+                <td>batman</td> 
+                <td>2020</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="3">Tablas en html</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+        <script src="" async defer></script>
+    </body>
+</html>
